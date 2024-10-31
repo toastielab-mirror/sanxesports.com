@@ -1,26 +1,26 @@
 site:
-  name: SanX Esports
-  site: 'https://dragonschildstudios.com'
+  name: SanX esports
+  site: 'https://sanxesports.com'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: FPJESuXiXbfqTUD9DTd0shhHD-1_Mp5sC5FcJ6VAPPU
+  googleSiteVerificationId: 
 
 # Default SEO metadata
 metadata:
   title:
-    default: Dragons child studios
+    default: SanX-esports
     template: '%s'
-  description: 'Welcome to the offical site for Dragons child studios.'
+  description: 'Welcome to the offical site for SanX-esports.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Dragons child studios
+    site_name: SanX esports
     type: website
   twitter:
-    handle: '@dragonschildstudios'
-    site: '@dragonschildstudios'
+    handle: '@sanxesports'
+    site: '@sanxesports'
     cardType: summary_large_image
 
 i18n:

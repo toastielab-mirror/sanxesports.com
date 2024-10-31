@@ -2,7 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
+// import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 
 const metadata = {
@@ -28,31 +28,20 @@ const metadata = {
 
   <!-- Note Widget ******************* -->
 
-  <Note />
+  <!-- <Note /> -->
 
   <!-- Features Widget *************** -->
 
   <Features
-    id="projects"
-    tagline="Projects"
-    title="What we are up to"
-    subtitle="Here is some of the projects we have started working on."
+    id="coming-soon"
+    tagline="Coming soon!"
+    title="Coming soon"
+    subtitle="This section is a work in progress."
     items={[
       {
-        title: 'Toastielab',
+        title: 'Not much yet',
         description:
-          'Toastielab is a small git platform operated by us which is operated by one of our founders Toastie',
-        icon: 'tabler:brand-git',
-      },
-      {
-        title: 'Dragons child hosting',
-        description: 'Our small hosting startup providing servers for Minecraft, Terraria, Teamspeak 3 and more.',
-        icon: 'tabler:server',
-      },
-      {
-        title: 'Valkyriecoms',
-        description: 'Our small social platform which is free from censorship and trackers.',
-        icon: 'tabler:brand-mastodon',
+          'Check back later to see what we have put here.',
       },
     ]}
   />

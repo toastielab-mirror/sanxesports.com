@@ -9,14 +9,6 @@ export const headerData = {
           text: 'About us',
           href: getPermalink('/about'),
         },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
       ],
     },
     {
@@ -37,6 +29,7 @@ export const headerData = {
 
 export const footerData = {
   links: [
+    /*
     {
       title: 'Our projects',
       links: [
@@ -52,6 +45,7 @@ export const footerData = {
         { text: 'Forums', href: 'https://forum.dragonschildstudios.com' },
       ],
     },
+    */
     // Commenting this out until this page is ready.
     // TODO: Finish this.
     /*
@@ -69,10 +63,10 @@ export const footerData = {
     {
       ariaLabel: 'Toastielab',
       icon: 'tabler:brand-git',
-      href: 'https://toastielab.dev/Dragonschildstudios/dragonschildstudios.com',
+      href: 'https://toastielab.dev/SanX-esports/sanxesports.com',
     },
   ],
   footNote: `
-    <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://dragonschildstudios.com/"> Dragons child studios</a> · All rights reserved.
+    <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://sanxesports.com/"> SanX esports</a> · All rights reserved.
   `,
 };
